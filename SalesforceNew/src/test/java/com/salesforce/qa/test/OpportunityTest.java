@@ -104,7 +104,10 @@ public class OpportunityTest extends BaseTest{
 			String exceptedTitleOfOpportunities=  opportunitiestestDataPro.getProperty("titleofopportunitiespage");		 				
 			Assert.assertEquals(actualTitleOFOpportunities, exceptedTitleOfOpportunities);
 			test.log(Status.INFO, "Opportunities Page is displayed");
-		     opportunitiesPage.clickOnNew(labelOfDropdownListOfView);
+		    
+			
+			
+			opportunitiesPage.clickOnNew(labelOfDropdownListOfView);
 		    OpportunityEditNewOpportunityPage  oppEditNewPage=new OpportunityEditNewOpportunityPage (driver);
 		    oppEditNewPage.setOpportunityName(textOfOpportunityNameData,labelOfOpportunityName);
 		    oppEditNewPage.setAccountName(textOfAccountNameData,  labelOfAccountName);
