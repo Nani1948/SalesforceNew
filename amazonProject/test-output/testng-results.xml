@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-29T03:06:58 EDT" name="Default suite" finished-at="2024-05-29T03:07:55 EDT" duration-ms="56492">
+    <groups>
+    </groups>
+    <test started-at="2024-05-29T03:06:58 EDT" name="Default test" finished-at="2024-05-29T03:07:55 EDT" duration-ms="56492">
+      <class name="com.salesforce.qa.test.LeadTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.salesforce.qa.test.LeadTest@5c18016b]" started-at="2024-05-29T03:06:58 EDT" name="setup" finished-at="2024-05-29T03:06:58 EDT" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpDriver(java.lang.String,boolean,java.lang.reflect.Method)[pri:0, instance:com.salesforce.qa.test.LeadTest@5c18016b]" started-at="2024-05-29T03:06:58 EDT" name="setUpDriver" finished-at="2024-05-29T03:07:01 EDT" duration-ms="2450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.salesforce.qa.test.LeadTest.checkNewButtononLeadHome()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method signature="checkNewButtononLeadHome()[pri:0, instance:com.salesforce.qa.test.LeadTest@5c18016b]" started-at="2024-05-29T03:07:01 EDT" name="checkNewButtononLeadHome" finished-at="2024-05-29T03:07:13 EDT" duration-ms="12401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNewButtononLeadHome -->
+        <test-method is-config="true" signature="setUpDriver(java.lang.String,boolean,java.lang.reflect.Method)[pri:0, instance:com.salesforce.qa.test.LeadTest@5c18016b]" started-at="2024-05-29T03:07:13 EDT" name="setUpDriver" finished-at="2024-05-29T03:07:15 EDT" duration-ms="1769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.salesforce.qa.test.LeadTest.leadsSelectView()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method signature="leadsSelectView()[pri:0, instance:com.salesforce.qa.test.LeadTest@5c18016b]" started-at="2024-05-29T03:07:15 EDT" name="leadsSelectView" finished-at="2024-05-29T03:07:22 EDT" duration-ms="6941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leadsSelectView -->
+        <test-method is-config="true" signature="setUpDriver(java.lang.String,boolean,java.lang.reflect.Method)[pri:0, instance:com.salesforce.qa.test.LeadTest@5c18016b]" started-at="2024-05-29T03:07:22 EDT" name="setUpDriver" finished-at="2024-05-29T03:07:24 EDT" duration-ms="2191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.salesforce.qa.test.LeadTest.listItemOfTodayLeads()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method signature="listItemOfTodayLeads()[pri:0, instance:com.salesforce.qa.test.LeadTest@5c18016b]" started-at="2024-05-29T03:07:24 EDT" name="listItemOfTodayLeads" finished-at="2024-05-29T03:07:34 EDT" duration-ms="9983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listItemOfTodayLeads -->
+        <test-method is-config="true" signature="setUpDriver(java.lang.String,boolean,java.lang.reflect.Method)[pri:0, instance:com.salesforce.qa.test.LeadTest@5c18016b]" started-at="2024-05-29T03:07:34 EDT" name="setUpDriver" finished-at="2024-05-29T03:07:36 EDT" duration-ms="1792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.salesforce.qa.test.LeadTest.testGoButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method signature="testGoButton()[pri:0, instance:com.salesforce.qa.test.LeadTest@5c18016b]" started-at="2024-05-29T03:07:36 EDT" name="testGoButton" finished-at="2024-05-29T03:07:46 EDT" duration-ms="10557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoButton -->
+        <test-method is-config="true" signature="setUpDriver(java.lang.String,boolean,java.lang.reflect.Method)[pri:0, instance:com.salesforce.qa.test.LeadTest@5c18016b]" started-at="2024-05-29T03:07:46 EDT" name="setUpDriver" finished-at="2024-05-29T03:07:48 EDT" duration-ms="1768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.salesforce.qa.test.LeadTest.testLeadTabLink()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method signature="testLeadTabLink()[pri:0, instance:com.salesforce.qa.test.LeadTest@5c18016b]" started-at="2024-05-29T03:07:48 EDT" name="testLeadTabLink" finished-at="2024-05-29T03:07:55 EDT" duration-ms="6575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLeadTabLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.qa.test.LeadTest@5c18016b]" started-at="2024-05-29T03:07:55 EDT" name="tearDown" finished-at="2024-05-29T03:07:55 EDT" duration-ms="699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.salesforce.qa.test.LeadTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
